@@ -1,0 +1,14 @@
+export 'package:flutter/material.dart';
+export 'package:flutter_screenutil/flutter_screenutil.dart';
+export 'package:flutter_svg/svg.dart';
+export 'package:get/get.dart';
+export 'package:socialize_application/base/import_base.dart';
+export 'package:socialize_application/extensions/extensions.dart';
+// export 'package:socialize_application/generated/locales.g.dart';
+export 'package:socialize_application/global/app_dimension.dart';
+export 'package:socialize_application/global/app_log.dart';
+export 'package:socialize_application/global/app_styles.dart';
+export 'package:socialize_application/global/app_text_style.dart';
+export 'package:socialize_application/global/app_theme.dart';
+export 'package:socialize_application/r.dart';
+export 'package:socialize_application/utils/functions.dart';

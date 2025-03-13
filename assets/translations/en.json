@@ -1,0 +1,15 @@
+{
+    "cancel": "Cancel",
+    "ok": "Ok",
+    "now": "now",
+    "ago": "ago",
+    "second": "second",
+    "minute": "minute",
+    "hour": "hour",
+    "day": "day",
+    "month": "month",
+    "year": "year",
+    "requestCamera": "To access the camera on Mental Health, please allow access to the camera.",
+    "requestGallery": "To upload photos to Mental Health, please allow access to all photos.",
+    "goToSetting": "Go to settings"
+}
