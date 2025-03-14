@@ -13,5 +13,17 @@
     "requestGallery": "To upload photos to Mental Health, please allow access to all photos.",
     "goToSetting": "Go to settings",
     "gestStarted": "Get Started",
-    "splashText": "Discover & join groups easily\n that fit your needs perfectly!"
+    "splashText": "Discover & join groups easily\n that fit your needs perfectly!",
+    "signInText": "Discover your favorite \nspaces with us!",
+    "hintTextEmail": "Type your username/email",
+    "hintTextPassword": "Type your password",
+    "emailOrUsername": "Email or Username",
+    "password": "Password",
+    "forgotPassword": "Forgot Password",
+    "login": "Login",
+    "createAccount": "Create Account",
+    "or": "or",
+    "signUpUsing": "Sign Up Using",
+    "requiredPassword": "Password cannot be empty",
+    "requiredEmail": "Email cannot be empty"
 }

@@ -15,4 +15,5 @@ abstract class BaseColor {
   Color get disableButtonColor;
   Color get colorFFFAEF;
   Color get color003972;
+  Color get color1E60A2;
 }

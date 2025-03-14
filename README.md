@@ -1,4 +1,4 @@
-# vj_edvjapp
+# socialize_application
 
 A new Flutter project.
 

@@ -4,7 +4,7 @@ export 'package:flutter_svg/svg.dart';
 export 'package:get/get.dart';
 export 'package:socialize_application/base/import_base.dart';
 export 'package:socialize_application/extensions/extensions.dart';
-// export 'package:socialize_application/generated/locales.g.dart';
+export 'package:socialize_application/generated/locales.g.dart';
 export 'package:socialize_application/global/app_dimension.dart';
 export 'package:socialize_application/global/app_log.dart';
 export 'package:socialize_application/global/app_styles.dart';

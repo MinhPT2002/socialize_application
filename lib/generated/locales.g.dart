@@ -25,6 +25,18 @@ class LocaleKeys {
   static const goToSetting = 'goToSetting';
   static const gestStarted = 'gestStarted';
   static const splashText = 'splashText';
+  static const signInText = 'signInText';
+  static const hintTextEmail = 'hintTextEmail';
+  static const hintTextPassword = 'hintTextPassword';
+  static const emailOrUsername = 'emailOrUsername';
+  static const password = 'password';
+  static const forgotPassword = 'forgotPassword';
+  static const login = 'login';
+  static const createAccount = 'createAccount';
+  static const or = 'or';
+  static const signUpUsing = 'signUpUsing';
+  static const requiredPassword = 'requiredPassword';
+  static const requiredEmail = 'requiredEmail';
 }
 
 class Locales {
@@ -47,5 +59,17 @@ class Locales {
     'gestStarted': 'Get Started',
     'splashText':
         'Discover & join groups easily\n that fit your needs perfectly!',
+    'signInText': 'Discover your favorite \nspaces with us!',
+    'hintTextEmail': 'Type your username/email',
+    'hintTextPassword': 'Type your password',
+    'emailOrUsername': 'Email or Username',
+    'password': 'Password',
+    'forgotPassword': 'Forgot Password',
+    'login': 'Login',
+    'createAccount': 'Create Account',
+    'or': 'or',
+    'signUpUsing': 'Sign Up Using',
+    'requiredPassword': 'Password cannot be empty',
+    'requiredEmail': 'Email cannot be empty',
   };
 }

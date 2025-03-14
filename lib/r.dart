@@ -8,9 +8,13 @@ class AssetImages {
 }
 
 class AssetIcons {
+	static const String iconApple = 'assets/icons/icon_apple.svg';
 	static const String iconBack = 'assets/icons/icon_back.svg';
 	static const String iconEyeActive = 'assets/icons/icon_eye_active.svg';
 	static const String iconEyeInactive = 'assets/icons/icon_eye_inactive.svg';
+	static const String iconGoogle = 'assets/icons/icon_google.svg';
+	static const String iconLock = 'assets/icons/icon_lock.svg';
+	static const String iconUser = 'assets/icons/icon_user.svg';
 }
 
 class AssetTranslations {

@@ -1,5 +1,4 @@
 import 'package:socialize_application/common/widget_components/button/widget_button.dart';
-import 'package:socialize_application/generated/locales.g.dart';
 import 'package:socialize_application/import.dart';
 import 'package:socialize_application/pages/splash/splash_controller.dart';
 
@@ -36,7 +35,7 @@ class SplashPage extends BaseScreen<SplashController> with BaseMixin {
                 ),
                 WidgetButton(
                   title: LocaleKeys.gestStarted.tr,
-                  onClick: () {},
+                  onClick: controller.moveToSignIn,
                   margin:
                       EdgeInsets.symmetric(horizontal: 80.r, vertical: 50.h),
                 )
@@ -56,7 +55,7 @@ class MyClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
     Path path = Path();
-    path.lineTo(0, size.height * 0.55); // Nâng lên một chút
+    path.lineTo(0, size.height * 0.55);
     path.quadraticBezierTo(size.width * 0.25, size.height * 0.45,
         size.width * 0.5, size.height * 0.5);
     path.quadraticBezierTo(
