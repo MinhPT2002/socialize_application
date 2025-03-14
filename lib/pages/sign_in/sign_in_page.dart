@@ -85,7 +85,7 @@ class SignInPage extends BaseScreen<SignInController> {
 
   Widget _buildPassword() {
     return WidgetInputText(
-      hintText: LocaleKeys.password.tr,
+      hintText: LocaleKeys.hintTextPassword.tr,
       title: LocaleKeys.password.tr,
       iconLeading: AssetIcons.iconLock,
       obscureText: true,
@@ -126,7 +126,7 @@ class SignInPage extends BaseScreen<SignInController> {
     return Column(
       children: [
         GestureDetector(
-          onTap: () {},
+          onTap: controller.moveToSignUp,
           child: Text(
             LocaleKeys.createAccount.tr,
             style: textStyle.regular(size: 14, color: color.color1E60A2),

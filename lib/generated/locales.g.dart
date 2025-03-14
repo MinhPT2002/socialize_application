@@ -37,6 +37,27 @@ class LocaleKeys {
   static const signUpUsing = 'signUpUsing';
   static const requiredPassword = 'requiredPassword';
   static const requiredEmail = 'requiredEmail';
+  static const startHere = 'startHere';
+  static const name = 'name';
+  static const enterName = 'enterName';
+  static const email = 'email';
+  static const enterEmail = 'enterEmail';
+  static const username = 'username';
+  static const enterUsername = 'enterUsername';
+  static const confirmPassword = 'confirmPassword';
+  static const hintTextConfirmPassword = 'hintTextConfirmPassword';
+  static const signUp = 'signUp';
+  static const alreadyHaveAccount = 'alreadyHaveAccount';
+  static const requiredName = 'requiredName';
+  static const requiredUsername = 'requiredUsername';
+  static const requiredConfirmPassword = 'requiredConfirmPassword';
+  static const emailWrongFormat = 'emailWrongFormat';
+  static const emailContain = 'emailContain';
+  static const emailLess255 = 'emailLess255';
+  static const passwordGreater = 'passwordGreater';
+  static const passwordLess = 'passwordLess';
+  static const passwordFormat = 'passwordFormat';
+  static const confirmPasswordNotMatch = 'confirmPasswordNotMatch';
 }
 
 class Locales {
@@ -71,5 +92,27 @@ class Locales {
     'signUpUsing': 'Sign Up Using',
     'requiredPassword': 'Password cannot be empty',
     'requiredEmail': 'Email cannot be empty',
+    'startHere': 'Let’s start here',
+    'name': 'Name',
+    'enterName': 'Enter Name',
+    'email': 'Email',
+    'enterEmail': 'Enter Email',
+    'username': 'Username',
+    'enterUsername': 'Enter Username',
+    'confirmPassword': 'Re-enter Password',
+    'hintTextConfirmPassword': 'Re-type your password',
+    'signUp': 'Sign Up',
+    'alreadyHaveAccount': 'Already have an account?',
+    'requiredName': 'Name cannot be empty',
+    'requiredUsername': 'Username cannot be empty',
+    'requiredConfirmPassword': 'Confirm password cannot be empty',
+    'emailWrongFormat': 'Incorrect email format',
+    'emailContain': 'Email cannot contain \'+\'',
+    'emailLess255': 'Email cannot exceed 255 characters',
+    'passwordGreater': 'Password cannot be less than 8 characters',
+    'passwordLess': 'Password cannot exceed 40 characters',
+    'passwordFormat':
+        'The password must contain at least one letter, one number, and one special character',
+    'confirmPasswordNotMatch': 'Password confirmation does not match',
   };
 }

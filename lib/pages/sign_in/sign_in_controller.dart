@@ -1,3 +1,4 @@
+import 'package:socialize_application/global/app_router.dart';
 import 'package:socialize_application/import.dart';
 
 class SignInController extends BaseController {
@@ -13,11 +14,7 @@ class SignInController extends BaseController {
   }
 
   void moveToSignUp() {
-    // Get.offNamed(AppRouter.routerSignUp);
-  }
-
-  void handleChangeCheckBox(bool value) {
-    autoLogin.value = value;
+    Get.offNamed(AppRouter.routerSignUp);
   }
 
   bool validation() {

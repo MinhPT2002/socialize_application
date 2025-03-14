@@ -1,10 +1,12 @@
 import 'package:socialize_application/import.dart';
 import 'package:socialize_application/pages/sign_in/sign_in_page.dart';
+import 'package:socialize_application/pages/sign_up/sign_up_page.dart';
 import 'package:socialize_application/pages/splash/splash_page.dart';
 
 class AppRouter {
   static const String routerSplash = '/splash';
   static const String routerSignIn = '/sign_in';
+  static const String routerSignUp = '/sign_up';
 
   static const curve = Curves.fastOutSlowIn;
   static var transition =
@@ -24,6 +26,13 @@ class AppRouter {
     GetPage<SignInPage>(
       name: routerSignIn,
       page: () => SignInPage(),
+      curve: curve,
+      transition: transition,
+      transitionDuration: transitionDuration,
+    ),
+    GetPage<SignUpPage>(
+      name: routerSignUp,
+      page: () => SignUpPage(),
       curve: curve,
       transition: transition,
       transitionDuration: transitionDuration,
