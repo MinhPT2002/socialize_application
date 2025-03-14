@@ -11,12 +11,10 @@ class LocalizationService extends Translations {
   static Locale get locale => _getLocaleFromLanguage();
 
   static List<Locale> locales = <Locale>[
-    const Locale(AppConst.langVi, ''),
-    const Locale(AppConst.langKo, ''),
     const Locale(AppConst.langEN, ''),
   ];
 
-  static Locale fallbackLocale = const Locale(AppConst.langVi);
+  static Locale fallbackLocale = const Locale(AppConst.langEN);
 
   @override
   Map<String, Map<String, String>> get keys =>
@@ -29,6 +27,6 @@ class LocalizationService extends Translations {
 
   static Locale _getLocaleFromLanguage() {
     final String? langCode = GetStorage().read<String?>(AppConst.langID);
-    return Locale(langCode ?? AppConst.langVi);
+    return Locale(langCode ?? AppConst.langEN);
   }
 }

@@ -1,7 +1,9 @@
 class AssetImages {
 	static const String appIcon = 'assets/images/app_icon.png';
 	static const String branding = 'assets/images/branding.png';
+	static const String imageSplash = 'assets/images/image_splash.png';
 	static const String noImage = 'assets/images/no_image.png';
+	static const String splashHeader = 'assets/images/splash_header.png';
 	static const String splashLogo = 'assets/images/splash_logo.png';
 }
 

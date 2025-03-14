@@ -11,5 +11,7 @@
     "year": "year",
     "requestCamera": "To access the camera on Mental Health, please allow access to the camera.",
     "requestGallery": "To upload photos to Mental Health, please allow access to all photos.",
-    "goToSetting": "Go to settings"
+    "goToSetting": "Go to settings",
+    "gestStarted": "Get Started",
+    "splashText": "Discover & join groups easily\n that fit your needs perfectly!"
 }

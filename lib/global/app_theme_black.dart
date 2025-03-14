@@ -65,46 +65,10 @@ class AppThemeBlack extends AppTheme {
   Color get inputColor => const Color(0xFFFCFCFC);
 
   @override
-  Color get color14CCA1 => const Color(0xFF14CCA1);
-
-  @override
-  Color get colorD3B0E0 => const Color(0xFFD3B0E0);
-
-  @override
-  Color get colorF0FFFC => const Color(0xFFF0FFFC);
-
-  @override
-  Color get colorF5FCFF => const Color(0xFFF5FCFF);
-
-  @override
-  Color get colorFABD7C => const Color(0xFFFABD7C);
-
-  @override
-  Color get colorFCF3FF => const Color(0xFFFCF3FF);
-
-  @override
-  Color get colorFFF8F0 => const Color(0xFFFFF8F0);
-
-  @override
-  Color get color333333 => const Color(0xFF333333);
-
-  @override
   Color get disableButtonColor => const Color(0xFFF1F1F1);
 
   @override
-  Color get colorFFA759 => const Color(0xFFFFA749);
-
-  @override
-  Color get colorC3D5E5 => const Color(0xFFC3D5E5);
-
-  @override
-  Color get colorFEFBC4 => const Color(0xFFFEFBC4);
-
-  @override
-  Color get color12B347 => const Color(0xFF12B347);
-
-  @override
-  Color get colorF1F3F4 => const Color(0xFFF1F3F4);
+  Color get color003972 => const Color(0xFF003972);
 
   @override
   Color get colorFFFAEF => const Color(0xFFFFFAEF);

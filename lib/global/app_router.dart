@@ -1,4 +1,5 @@
 import 'package:socialize_application/import.dart';
+import 'package:socialize_application/pages/splash/splash_page.dart';
 
 class AppRouter {
   static const String routerSplash = '/splash';

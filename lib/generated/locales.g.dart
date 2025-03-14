@@ -23,6 +23,8 @@ class LocaleKeys {
   static const requestCamera = 'requestCamera';
   static const requestGallery = 'requestGallery';
   static const goToSetting = 'goToSetting';
+  static const gestStarted = 'gestStarted';
+  static const splashText = 'splashText';
 }
 
 class Locales {
@@ -42,5 +44,8 @@ class Locales {
     'requestGallery':
         'To upload photos to Mental Health, please allow access to all photos.',
     'goToSetting': 'Go to settings',
+    'gestStarted': 'Get Started',
+    'splashText':
+        'Discover & join groups easily\n that fit your needs perfectly!',
   };
 }

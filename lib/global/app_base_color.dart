@@ -12,19 +12,7 @@ abstract class BaseColor {
   Color get greyColor;
   Color get borderLightColor;
   Color get inputColor;
-  Color get color14CCA1;
-  Color get colorF0FFFC;
-  Color get colorFABD7C;
-  Color get colorFFF8F0;
-  Color get colorD3B0E0;
-  Color get colorFCF3FF;
-  Color get colorF5FCFF;
-  Color get color333333;
   Color get disableButtonColor;
-  Color get colorFFA759;
-  Color get colorC3D5E5;
-  Color get colorFEFBC4;
-  Color get color12B347;
-  Color get colorF1F3F4;
   Color get colorFFFAEF;
+  Color get color003972;
 }
