@@ -46,7 +46,7 @@ class SignInPage extends BaseScreen<SignInController> {
             _buildForgotPassword(),
             WidgetButton(
               title: LocaleKeys.login.tr,
-              onClick: () {},
+              onClick: controller.handleSignIn,
               width: 230,
               margin: EdgeInsets.symmetric(vertical: 40.h),
             ),

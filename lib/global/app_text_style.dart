@@ -109,6 +109,23 @@ class AppTextStyle {
           fontWeight: FontWeight.w600,
           backgroundColor: backgroundColor,
           decoration: TextDecoration.underline);
+  TextStyle semiBoldUnderline({
+    double? size,
+    Color? color,
+    Color? backgroundColor,
+    TextDecoration? decoration,
+    FontStyle? fontStyle,
+    double? height,
+  }) =>
+      custom(
+        size: size,
+        color: color,
+        fontWeight: FontWeight.w600,
+        backgroundColor: backgroundColor,
+        decoration: TextDecoration.underline,
+        fontStyle: fontStyle,
+        height: height,
+      );
 
   // TextStyle custom({
   //   double? size,

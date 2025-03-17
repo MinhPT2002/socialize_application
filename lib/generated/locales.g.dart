@@ -58,6 +58,39 @@ class LocaleKeys {
   static const passwordLess = 'passwordLess';
   static const passwordFormat = 'passwordFormat';
   static const confirmPasswordNotMatch = 'confirmPasswordNotMatch';
+  static const tech = 'tech';
+  static const artificialIntelligence = 'artificialIntelligence';
+  static const travel = 'travel';
+  static const politics = 'politics';
+  static const uxDesign = 'uxDesign';
+  static const scriptWriting = 'scriptWriting';
+  static const music = 'music';
+  static const business = 'business';
+  static const finance = 'finance';
+  static const selectInterest = 'selectInterest';
+  static const professional = 'professional';
+  static const casual = 'casual';
+  static const socialCause = 'socialCause';
+  static const add = 'add';
+  static const skip = 'skip';
+  static const gadgets = 'gadgets';
+  static const aiFun = 'aiFun';
+  static const localTrips = 'localTrips';
+  static const communityChat = 'communityChat';
+  static const easyApps = 'easyApps';
+  static const quickStories = 'quickStories';
+  static const musicMixes = 'musicMixes';
+  static const dailyDeals = 'dailyDeals';
+  static const moneyTips = 'moneyTips';
+  static const digitalAccess = 'digitalAccess';
+  static const aiEthics = 'aiEthics';
+  static const ecoTravel = 'ecoTravel';
+  static const socialRights = 'socialRights';
+  static const inclusiveDesign = 'inclusiveDesign';
+  static const impactStories = 'impactStories';
+  static const musicAction = 'musicAction';
+  static const ethicalBiz = 'ethicalBiz';
+  static const givingBack = 'givingBack';
 }
 
 class Locales {
@@ -114,5 +147,38 @@ class Locales {
     'passwordFormat':
         'The password must contain at least one letter, one number, and one special character',
     'confirmPasswordNotMatch': 'Password confirmation does not match',
+    'tech': 'Tech',
+    'artificialIntelligence': 'Artificial Intelligence',
+    'travel': 'Travel',
+    'politics': 'Politics',
+    'uxDesign': 'UX Design',
+    'scriptWriting': 'Script Writing',
+    'music': 'Music',
+    'business': 'Business',
+    'finance': 'Finance',
+    'selectInterest': 'Select at least 3 Interests to \npersonalize your feed',
+    'professional': 'Professional',
+    'casual': 'Casual',
+    'socialCause': 'Social Cause',
+    'add': 'Add',
+    'skip': 'Skip',
+    'gadgets': 'Gadgets',
+    'aiFun': 'AI Fun',
+    'localTrips': 'Local Trips',
+    'communityChat': 'Community Chat',
+    'easyApps': 'Easy Apps',
+    'quickStories': 'Quick Stories',
+    'musicMixes': 'Music Mixes',
+    'dailyDeals': 'Daily Deals',
+    'moneyTips': 'Money Tips',
+    'digitalAccess': 'Digital Access',
+    'aiEthics': 'AI Ethics',
+    'ecoTravel': 'Eco Travel',
+    'socialRights': 'Social Rights',
+    'inclusiveDesign': 'Inclusive Design',
+    'impactStories': 'Impact Stories',
+    'musicAction': 'Music Action',
+    'ethicalBiz': 'Ethical Biz',
+    'givingBack': 'Giving Back',
   };
 }

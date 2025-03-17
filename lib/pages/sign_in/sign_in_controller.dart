@@ -17,6 +17,12 @@ class SignInController extends BaseController {
     Get.offNamed(AppRouter.routerSignUp);
   }
 
+  void handleSignIn() {
+    if (validation()) {
+      Get.offNamed(AppRouter.routerInterest);
+    }
+  }
+
   bool validation() {
     if (formKey.currentState?.validate() == true) {
       formKey.currentState!.save();
