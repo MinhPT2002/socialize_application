@@ -1,6 +1,5 @@
 import 'package:socialize_application/common/widget_components/button/widget_button.dart';
 import 'package:socialize_application/common/widget_components/text_button/widget_text_button.dart';
-import 'package:socialize_application/generated/locales.g.dart';
 import 'package:socialize_application/import.dart';
 
 mixin BaseCommonWidgets {

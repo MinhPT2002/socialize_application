@@ -1,4 +1,5 @@
 import 'package:socialize_application/global/app_enum.dart';
+import 'package:socialize_application/global/app_router.dart';
 import 'package:socialize_application/import.dart';
 
 class InterestController extends BaseController {
@@ -17,4 +18,8 @@ class InterestController extends BaseController {
   }
 
   bool get canAdd => selectedInterests.length >= 3;
+
+  void moveToDashboard() {
+    Get.offNamed(AppRouter.routerDashboard);
+  }
 }

@@ -79,5 +79,15 @@
     "impactStories": "Impact Stories",
     "musicAction": "Music Action",
     "ethicalBiz": "Ethical Biz",
-    "givingBack": "Giving Back"
+    "givingBack": "Giving Back",
+    "home": "Home",
+    "myVaults": "My Vaults",
+    "discover": "Discover",
+    "notifications": "Notifications",
+    "calendar": "Calendar",
+    "homeText": "You have not joined any space yet!\nBrowse through our recommended options\nor go to discover tab to search spaces by\nsetting preferences.",
+    "trendingNow": "Trending now",
+    "exploreByEvents": "Explore by events",
+    "joinGrowthClubs": "Join Growth Clubs",
+    "recommendForYou": "Recommend for you"
 }

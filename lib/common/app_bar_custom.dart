@@ -100,15 +100,21 @@ class AppBarCustom extends BaseWidget<BaseController>
     return GestureDetector(
       behavior: HitTestBehavior.opaque,
       onTap: () {
-        if (leadingPressed != null) {
-          leadingPressed!();
+        if (leadingIcon != null && leadingIcon != '') {
+          if (leadingPressed != null) {
+            leadingPressed!();
+          } else {
+            Get.back();
+          }
         } else {
-          Get.back();
+          () {};
         }
       },
       child: Padding(
         padding: EdgeInsets.only(left: 16.r),
-        child: SvgPicture.asset(AssetIcons.iconBack, width: 45.w),
+        child: leadingIcon != null && leadingIcon != ''
+            ? Image.asset(AssetImages.appBarLeading)
+            : SvgPicture.asset(AssetIcons.iconBack, width: 45.w),
       ),
     );
   }

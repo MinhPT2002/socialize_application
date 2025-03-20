@@ -142,7 +142,7 @@ class InterestPage extends BaseScreen<InterestController> {
   Widget _addButton() {
     return WidgetButton(
       title: LocaleKeys.add.tr,
-      onClick: controller.canAdd ? () {} : () {},
+      onClick: controller.canAdd ? controller.moveToDashboard : () {},
       margin: EdgeInsets.symmetric(vertical: 40.h),
       borderRadius: 8,
       disable: !controller.canAdd,
@@ -150,9 +150,12 @@ class InterestPage extends BaseScreen<InterestController> {
   }
 
   Widget _skipWidget() {
-    return Text(
-      LocaleKeys.skip.tr,
-      style: textStyle.semiBoldUnderline(size: 16, color: color.color0080FF),
+    return GestureDetector(
+      onTap: controller.moveToDashboard,
+      child: Text(
+        LocaleKeys.skip.tr,
+        style: textStyle.semiBoldUnderline(size: 16, color: color.color0080FF),
+      ),
     );
   }
 

@@ -91,6 +91,16 @@ class LocaleKeys {
   static const musicAction = 'musicAction';
   static const ethicalBiz = 'ethicalBiz';
   static const givingBack = 'givingBack';
+  static const home = 'home';
+  static const myVaults = 'myVaults';
+  static const discover = 'discover';
+  static const notifications = 'notifications';
+  static const calendar = 'calendar';
+  static const homeText = 'homeText';
+  static const trendingNow = 'trendingNow';
+  static const exploreByEvents = 'exploreByEvents';
+  static const joinGrowthClubs = 'joinGrowthClubs';
+  static const recommendForYou = 'recommendForYou';
 }
 
 class Locales {
@@ -180,5 +190,16 @@ class Locales {
     'musicAction': 'Music Action',
     'ethicalBiz': 'Ethical Biz',
     'givingBack': 'Giving Back',
+    'home': 'Home',
+    'myVaults': 'My Vaults',
+    'discover': 'Discover',
+    'notifications': 'Notifications',
+    'calendar': 'Calendar',
+    'homeText':
+        'You have not joined any space yet!\nBrowse through our recommended options\nor go to discover tab to search spaces by\nsetting preferences.',
+    'trendingNow': 'Trending now',
+    'exploreByEvents': 'Explore by events',
+    'joinGrowthClubs': 'Join Growth Clubs',
+    'recommendForYou': 'Recommend for you',
   };
 }
